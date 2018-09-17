@@ -74,4 +74,67 @@ RSpec.describe Recursion do
       expect(item.call(961)).to eq('1 6 9')
     end
   end
+
+  describe 'Task7' do
+    let(:item) { Recursion::Task7 }
+    it 'should work' do
+      expect(item.call(0)).to eq('0')
+      expect(item.call(5)).to eq('5')
+      expect(item.call(12)).to eq('1 2')
+      expect(item.call(71)).to eq('7 1')
+      expect(item.call(123)).to eq('1 2 3')
+      expect(item.call(961)).to eq('9 6 1')
+    end
+  end
+
+  describe 'Task8' do
+    let(:item) { Recursion::Task8 }
+    let(:numbers) do
+      [
+        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53,
+        59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113,
+        127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181,
+        191, 193, 197, 199
+      ]
+    end
+
+    it 'should work' do
+      numbers.each do |number|
+        expect(item.call(number)).to eq(true)
+      end
+    end
+
+    it 'should not work' do
+      (Array(1..200) - numbers).each do |number|
+        expect(item.call(number)).to eq(false)
+      end
+    end
+  end
+
+  describe 'Task10' do
+    let(:item) { Recursion::Task10 }
+    it 'should work' do
+      expect(item.call('g')).to eq(true)
+      expect(item.call('gg')).to eq(true)
+      expect(item.call('ga')).to eq(false)
+      expect(item.call('gag')).to eq(true)
+      expect(item.call('gab')).to eq(false)
+      expect(item.call('abba')).to eq(true)
+      expect(item.call('baba')).to eq(false)
+      expect(item.call('abcba')).to eq(true)
+      expect(item.call('agcba')).to eq(false)
+    end
+  end
+
+  describe 'Task11' do
+    let(:item) { Recursion::Task11 }
+    it 'should work' do
+      expect(item.call([])).to eq('')
+      expect(item.call([2])).to eq('')
+      expect(item.call([3])).to eq('3 ')
+      expect(item.call([1, 2])).to eq('1 ')
+      expect(item.call([1, 2, 3])).to eq('1 3 ')
+      expect(item.call([31, 22, 13])).to eq('31 13 ')
+    end
+  end
 end

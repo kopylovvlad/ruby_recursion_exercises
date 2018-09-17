@@ -1,0 +1,15 @@
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.4.4
+
+AllCops:
+  Exclude:
+  - rspec/**/*
+
+Style/AndOr:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false

@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1252e1ba-d9f0-4cec-9201-3e34dc29cc4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vladislavkopylov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/recursion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/recursion.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/recursion_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/recursion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/recursion.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/recursion_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/recursion_spec.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,20 +14,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task7__recursion.rcov" NAME="Recursion Task7: recursion Coverage Results" MODIFIED="1537205678341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task9__recursion.rcov" NAME="Recursion Task9: recursion Coverage Results" MODIFIED="1537207493164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task5__recursion.rcov" NAME="Recursion Task5: recursion Coverage Results" MODIFIED="1534013939358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task10__recursion.rcov" NAME="Recursion Task10: recursion Coverage Results" MODIFIED="1537208893653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task4__recursion.rcov" NAME="Recursion Task4: recursion Coverage Results" MODIFIED="1534013634083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task11__recursion.rcov" NAME="Recursion Task11: recursion Coverage Results" MODIFIED="1537209609291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task6__recursion.rcov" NAME="Recursion Task6: recursion Coverage Results" MODIFIED="1534014985070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task8__recursion.rcov" NAME="Recursion Task8: recursion Coverage Results" MODIFIED="1537207076745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion__recursion.rcov" NAME="Recursion: recursion Coverage Results" MODIFIED="1537204093767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-436766113">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,7 +56,9 @@
           <entry key="Gemfile" value="2" />
           <entry key="console" value="2" />
           <entry key="gemspec" value="3" />
+          <entry key="gitignore" value="1" />
           <entry key="lock" value="1" />
+          <entry key="md" value="1" />
           <entry key="rb" value="8" />
           <entry key="recursion" value="1" />
           <entry key="rspec_status" value="1" />
@@ -60,7 +69,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="RbenvGemsets" value="2" />
           <entry key="Ruby" value="16" />
           <entry key="YAML" value="1" />
@@ -71,25 +81,39 @@
           <entry key="Gemfile" value="20" />
           <entry key="console" value="6" />
           <entry key="gemspec" value="9" />
-          <entry key="rb" value="2526" />
+          <entry key="rb" value="3954" />
+          <entry key="txt" value="9" />
           <entry key="yml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="2561" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Ruby" value="3989" />
           <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="recursion" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recursion.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+            <state relative-caret-position="253">
+              <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -98,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/spec/recursion_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
-              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+              <caret line="128" column="22" lean-forward="true" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -117,6 +141,7 @@
         <option value="$PROJECT_DIR$/bin/console" />
         <option value="$PROJECT_DIR$/spec/recursion_spec.rb" />
         <option value="$PROJECT_DIR$/lib/recursion.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -144,16 +169,6 @@
               <item name="recursion" type="b2602c69:ProjectViewProjectNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="recursion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recursion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +180,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CoffeeScript" />
   </component>
   <component name="RunAnythingCache">
     <option name="a">
@@ -184,8 +199,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Recursion Task6: recursion">
-    <configuration name="Recursion Task4: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.Recursion Task11: recursion">
+    <configuration name="Recursion Task10: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -207,7 +222,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task4" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task10" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -218,7 +233,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task5: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion Task11: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -240,7 +255,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task5" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task11" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -251,7 +266,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task6 should work: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion Task7: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -273,7 +288,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task6 should work" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task7" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -284,7 +299,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task6: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion Task8: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -306,7 +321,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task6" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task8" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Recursion Task9: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="recursion" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task9" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -318,17 +366,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="RSpec.Recursion Task4: recursion" />
-      <item itemvalue="RSpec.Recursion Task5: recursion" />
-      <item itemvalue="RSpec.Recursion Task6: recursion" />
-      <item itemvalue="RSpec.Recursion Task6 should work: recursion" />
+      <item itemvalue="RSpec.Recursion Task7: recursion" />
+      <item itemvalue="RSpec.Recursion Task8: recursion" />
+      <item itemvalue="RSpec.Recursion Task9: recursion" />
+      <item itemvalue="RSpec.Recursion Task10: recursion" />
+      <item itemvalue="RSpec.Recursion Task11: recursion" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Recursion Task6: recursion" />
-        <item itemvalue="RSpec.Recursion Task6 should work: recursion" />
-        <item itemvalue="RSpec.Recursion Task5: recursion" />
-        <item itemvalue="RSpec.Recursion Task4: recursion" />
+        <item itemvalue="RSpec.Recursion Task11: recursion" />
+        <item itemvalue="RSpec.Recursion Task10: recursion" />
+        <item itemvalue="RSpec.Recursion Task9: recursion" />
+        <item itemvalue="RSpec.Recursion Task8: recursion" />
+        <item itemvalue="RSpec.Recursion Task7: recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -346,54 +396,62 @@
       <workItem from="1533930157045" duration="50000" />
       <workItem from="1533930207639" duration="641000" />
       <workItem from="1533930883234" duration="6000" />
-      <workItem from="1534005821572" duration="7957000" />
+      <workItem from="1534005821572" duration="8193000" />
+      <workItem from="1537204033726" duration="4437000" />
     </task>
+    <task id="LOCAL-00001" summary="first day">
+      <created>1534015113106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534015113107</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Recursion_Task5__recursion - 2018.08.11 at 21h 58m 17s.xml">
-      <configuration name="Recursion Task5: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task9__recursion - 2018.09.17 at 21h 04m 10s.xml">
+      <configuration name="Recursion Task9: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task5__recursion - 2018.08.11 at 21h 59m 00s.xml">
-      <configuration name="Recursion Task5: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task9__recursion - 2018.09.17 at 21h 04m 38s.xml">
+      <configuration name="Recursion Task9: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 10m 24s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task9__recursion - 2018.09.17 at 21h 04m 54s.xml">
+      <configuration name="Recursion Task9: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 10m 56s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 26m 56s.xml">
+      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 11m 34s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 27m 18s.xml">
+      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 13m 38s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 27m 53s.xml">
+      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 14m 56s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 28m 15s.xml">
+      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 15m 28s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task11__recursion - 2018.09.17 at 21h 37m 22s.xml">
+      <configuration name="Recursion Task11: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 16m 14s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task11__recursion - 2018.09.17 at 21h 39m 46s.xml">
+      <configuration name="Recursion Task11: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task6__recursion - 2018.08.11 at 22h 16m 26s.xml">
-      <configuration name="Recursion Task6: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task11__recursion - 2018.09.17 at 21h 40m 10s.xml">
+      <configuration name="Recursion Task11: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8654000" />
+    <option name="totallyTimeSpent" value="13327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="DB Browser" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20600858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939686" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info id="Favorites" order="2" sideWeight="0.50060314" side_tool="true" weight="0.20886981" />
+      <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7804584" />
@@ -403,10 +461,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.3293124" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293124" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.3293124" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.3293124" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32810616" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,14 +478,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first day" />
+    <option name="LAST_COMMIT_MESSAGE" value="first day" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exe/recursion">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/exe/recursion" />
     <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/array.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -444,13 +501,7 @@
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/recursion.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/recursion.gemspec" />
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -492,17 +543,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-52" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/recursion_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <caret line="128" column="22" lean-forward="true" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/recursion.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+        <state relative-caret-position="253">
+          <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
         </state>
       </provider>
     </entry>
