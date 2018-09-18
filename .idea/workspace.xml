@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1252e1ba-d9f0-4cec-9201-3e34dc29cc4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/recursion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recursion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.rspec_status" beforeDir="false" afterPath="$PROJECT_DIR$/.rspec_status" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/recursion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/recursion.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/recursion_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/recursion_spec.rb" afterDir="false" />
     </list>
@@ -14,15 +17,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/recursion@Recursion_Task7__recursion.rcov" NAME="Recursion Task7: recursion Coverage Results" MODIFIED="1537205678341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task9__recursion.rcov" NAME="Recursion Task9: recursion Coverage Results" MODIFIED="1537207493164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task17_should_work__recursion.rcov" NAME="Recursion Task17 should work: recursion Coverage Results" MODIFIED="1537265173040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task5__recursion.rcov" NAME="Recursion Task5: recursion Coverage Results" MODIFIED="1534013939358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
-    <SUITE FILE_PATH="coverage/recursion@Recursion_Task10__recursion.rcov" NAME="Recursion Task10: recursion Coverage Results" MODIFIED="1537208893653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
-    <SUITE FILE_PATH="coverage/recursion@Recursion_Task4__recursion.rcov" NAME="Recursion Task4: recursion Coverage Results" MODIFIED="1534013634083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task15_should_work__recursion.rcov" NAME="Recursion Task15 should work: recursion Coverage Results" MODIFIED="1537262107924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task13_should_work__recursion.rcov" NAME="Recursion Task13 should work: recursion Coverage Results" MODIFIED="1537271862855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task11__recursion.rcov" NAME="Recursion Task11: recursion Coverage Results" MODIFIED="1537209609291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task6__recursion.rcov" NAME="Recursion Task6: recursion Coverage Results" MODIFIED="1534014985070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task20_should_work__recursion.rcov" NAME="Recursion Task20 should work: recursion Coverage Results" MODIFIED="1537273491226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion__recursion.rcov" NAME="Recursion: recursion Coverage Results" MODIFIED="1537273517103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task14__recursion.rcov" NAME="Recursion Task14: recursion Coverage Results" MODIFIED="1537260469122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task18_should_work__recursion.rcov" NAME="Recursion Task18 should work: recursion Coverage Results" MODIFIED="1537266007664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task7__recursion.rcov" NAME="Recursion Task7: recursion Coverage Results" MODIFIED="1537205678341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task16_should_work__recursion.rcov" NAME="Recursion Task16 should work: recursion Coverage Results" MODIFIED="1537264279345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task14_should_work__recursion.rcov" NAME="Recursion Task14 should work: recursion Coverage Results" MODIFIED="1537260757280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task10__recursion.rcov" NAME="Recursion Task10: recursion Coverage Results" MODIFIED="1537208893653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task21_should_work__recursion.rcov" NAME="Recursion Task21 should work: recursion Coverage Results" MODIFIED="1537270669972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task12_should_work__recursion.rcov" NAME="Recursion Task12 should work: recursion Coverage Results" MODIFIED="1537273558750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task4__recursion.rcov" NAME="Recursion Task4: recursion Coverage Results" MODIFIED="1534013634083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task9_should_work__recursion.rcov" NAME="Recursion Task9 should work: recursion Coverage Results" MODIFIED="1537271313067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
     <SUITE FILE_PATH="coverage/recursion@Recursion_Task8__recursion.rcov" NAME="Recursion Task8: recursion Coverage Results" MODIFIED="1537207076745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
-    <SUITE FILE_PATH="coverage/recursion@Recursion__recursion.rcov" NAME="Recursion: recursion Coverage Results" MODIFIED="1537204093767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task13__recursion.rcov" NAME="Recursion Task13: recursion Coverage Results" MODIFIED="1537258684302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
+    <SUITE FILE_PATH="coverage/recursion@Recursion_Task19_should_work__recursion.rcov" NAME="Recursion Task19 should work: recursion Coverage Results" MODIFIED="1537273312104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="recursion" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -53,35 +69,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="2" />
+          <entry key="Gemfile" value="3" />
+          <entry key="Rakefile" value="1" />
           <entry key="console" value="2" />
           <entry key="gemspec" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
-          <entry key="rb" value="8" />
+          <entry key="rb" value="9" />
           <entry key="recursion" value="1" />
           <entry key="rspec_status" value="1" />
           <entry key="ruby-gemset" value="2" />
           <entry key="setup" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="RbenvGemsets" value="2" />
-          <entry key="Ruby" value="16" />
-          <entry key="YAML" value="1" />
+          <entry key="Ruby" value="19" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="20" />
+          <entry key="Gemfile" value="30" />
           <entry key="console" value="6" />
           <entry key="gemspec" value="9" />
-          <entry key="rb" value="3954" />
+          <entry key="rb" value="6831" />
           <entry key="txt" value="9" />
           <entry key="yml" value="12" />
         </counts>
@@ -89,7 +107,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Ruby" value="3989" />
+          <entry key="Ruby" value="6876" />
           <entry key="YAML" value="12" />
         </counts>
       </usages-collector>
@@ -103,31 +121,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recursion.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
+            <state relative-caret-position="3516">
+              <caret line="372" selection-start-line="372" selection-end-line="372" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/recursion_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="128" column="22" lean-forward="true" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+            <state relative-caret-position="199">
+              <caret line="164" column="62" selection-start-line="164" selection-start-column="62" selection-end-line="164" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Task13</find>
+      <find>pry</find>
+      <find>%</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,12 +152,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/recursion.gemspec" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.rubocop.yml" />
         <option value="$PROJECT_DIR$/bin/console" />
-        <option value="$PROJECT_DIR$/spec/recursion_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/recursion.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/recursion.rb" />
+        <option value="$PROJECT_DIR$/spec/recursion_spec.rb" />
       </list>
     </option>
   </component>
@@ -180,7 +196,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CoffeeScript" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunAnythingCache">
     <option name="a">
@@ -199,8 +215,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Recursion Task11: recursion">
-    <configuration name="Recursion Task10: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.Recursion Task12 should work: recursion">
+    <configuration name="Recursion Task12 should work: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -222,7 +238,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task10" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task12 should work" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -233,7 +249,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task11: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion Task13 should work: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -255,7 +271,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task11" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task13 should work" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -266,7 +282,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task7: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion Task19 should work: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -288,7 +304,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task7" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task19 should work" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -299,7 +315,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task8: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion Task20 should work: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -321,7 +337,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task8" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task20 should work" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -332,7 +348,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recursion Task9: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Recursion: recursion" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -354,7 +370,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/recursion_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion Task9" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Recursion" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -366,19 +382,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="RSpec.Recursion Task7: recursion" />
-      <item itemvalue="RSpec.Recursion Task8: recursion" />
-      <item itemvalue="RSpec.Recursion Task9: recursion" />
-      <item itemvalue="RSpec.Recursion Task10: recursion" />
-      <item itemvalue="RSpec.Recursion Task11: recursion" />
+      <item itemvalue="RSpec.Recursion Task12 should work: recursion" />
+      <item itemvalue="RSpec.Recursion Task13 should work: recursion" />
+      <item itemvalue="RSpec.Recursion Task19 should work: recursion" />
+      <item itemvalue="RSpec.Recursion Task20 should work: recursion" />
+      <item itemvalue="RSpec.Recursion: recursion" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Recursion Task11: recursion" />
-        <item itemvalue="RSpec.Recursion Task10: recursion" />
-        <item itemvalue="RSpec.Recursion Task9: recursion" />
-        <item itemvalue="RSpec.Recursion Task8: recursion" />
-        <item itemvalue="RSpec.Recursion Task7: recursion" />
+        <item itemvalue="RSpec.Recursion Task12 should work: recursion" />
+        <item itemvalue="RSpec.Recursion: recursion" />
+        <item itemvalue="RSpec.Recursion Task20 should work: recursion" />
+        <item itemvalue="RSpec.Recursion Task19 should work: recursion" />
+        <item itemvalue="RSpec.Recursion Task13 should work: recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +413,7 @@
       <workItem from="1533930207639" duration="641000" />
       <workItem from="1533930883234" duration="6000" />
       <workItem from="1534005821572" duration="8193000" />
-      <workItem from="1537204033726" duration="4437000" />
+      <workItem from="1537204033726" duration="11448000" />
     </task>
     <task id="LOCAL-00001" summary="first day">
       <created>1534015113106</created>
@@ -410,45 +426,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Recursion_Task9__recursion - 2018.09.17 at 21h 04m 10s.xml">
-      <configuration name="Recursion Task9: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task19_should_work__recursion - 2018.09.18 at 15h 19m 59s.xml">
+      <configuration name="Recursion Task19 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task9__recursion - 2018.09.17 at 21h 04m 38s.xml">
-      <configuration name="Recursion Task9: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task19_should_work__recursion - 2018.09.18 at 15h 20m 34s.xml">
+      <configuration name="Recursion Task19 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task9__recursion - 2018.09.17 at 21h 04m 54s.xml">
-      <configuration name="Recursion Task9: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task19_should_work__recursion - 2018.09.18 at 15h 20m 49s.xml">
+      <configuration name="Recursion Task19 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 26m 56s.xml">
-      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task19_should_work__recursion - 2018.09.18 at 15h 21m 24s.xml">
+      <configuration name="Recursion Task19 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 27m 18s.xml">
-      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task19_should_work__recursion - 2018.09.18 at 15h 21m 53s.xml">
+      <configuration name="Recursion Task19 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 27m 53s.xml">
-      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task20_should_work__recursion - 2018.09.18 at 15h 24m 38s.xml">
+      <configuration name="Recursion Task20 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task10__recursion - 2018.09.17 at 21h 28m 15s.xml">
-      <configuration name="Recursion Task10: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task20_should_work__recursion - 2018.09.18 at 15h 24m 53s.xml">
+      <configuration name="Recursion Task20 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task11__recursion - 2018.09.17 at 21h 37m 22s.xml">
-      <configuration name="Recursion Task11: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion__recursion - 2018.09.18 at 15h 25m 19s.xml">
+      <configuration name="Recursion: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task11__recursion - 2018.09.17 at 21h 39m 46s.xml">
-      <configuration name="Recursion Task11: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task12_should_work__recursion - 2018.09.18 at 15h 25m 53s.xml">
+      <configuration name="Recursion Task12 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Recursion_Task11__recursion - 2018.09.17 at 21h 40m 10s.xml">
-      <configuration name="Recursion Task11: recursion" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Recursion_Task12_should_work__recursion - 2018.09.18 at 15h 26m 00s.xml">
+      <configuration name="Recursion Task12 should work: recursion" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13327000" />
+    <option name="totallyTimeSpent" value="20338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939686" visible="true" weight="0.20886981" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939686" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50060314" side_tool="true" weight="0.20886981" />
       <window_info id="DB Browser" order="3" />
@@ -462,7 +478,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293124" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.3293124" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" weight="0.3293124" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.3293124" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32810616" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
@@ -502,24 +518,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/recursion.gemspec" />
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.ruby-gemset">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.rubocop.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -551,24 +553,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/recursion_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="128" column="22" lean-forward="true" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/recursion.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rubocop.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/recursion.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3516">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/recursion_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="164" column="62" selection-start-line="164" selection-start-column="62" selection-end-line="164" selection-end-column="62" />
         </state>
       </provider>
     </entry>

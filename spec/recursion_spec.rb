@@ -111,6 +111,21 @@ RSpec.describe Recursion do
     end
   end
 
+  describe 'Task9' do
+    let(:item) { Recursion::Task9 }
+    it 'should work' do
+      expect(item.call(2)).to eq('2')
+      expect(item.call(5)).to eq('5')
+      expect(item.call(6)).to eq('2 3')
+      expect(item.call(10)).to eq('2 5')
+      expect(item.call(12)).to eq('2 2 3')
+      expect(item.call(13)).to eq('13')
+      expect(item.call(18)).to eq('2 3 3')
+      expect(item.call(25)).to eq('5 5')
+      expect(item.call(336)).to eq('2 2 2 2 3 7')
+    end
+  end
+
   describe 'Task10' do
     let(:item) { Recursion::Task10 }
     it 'should work' do
@@ -135,6 +150,129 @@ RSpec.describe Recursion do
       expect(item.call([1, 2])).to eq('1 ')
       expect(item.call([1, 2, 3])).to eq('1 3 ')
       expect(item.call([31, 22, 13])).to eq('31 13 ')
+    end
+  end
+
+  describe 'Task12' do
+    let(:item) { Recursion::Task12 }
+    it 'should work' do
+      expect(item.call([])).to eq('')
+      expect(item.call([1])).to eq('1 ')
+      expect(item.call([2])).to eq('2 ')
+      expect(item.call([1, 2])).to eq('1 ')
+      expect(item.call([3, 2])).to eq('3 ')
+      expect(item.call([1, 2, 3, 4])).to eq('1 3 ')
+      expect(item.call([2, 5, 8, 2, 3, 4, 5])).to eq('2 8 3 5 ')
+    end
+  end
+
+  describe 'Task13' do
+    let(:item) { Recursion::Task13 }
+    it 'should work' do
+      expect(item.call([1])).to eq(1)
+      expect(item.call([13])).to eq(13)
+      expect(item.call([1, 2])).to eq(2)
+      expect(item.call([1, 2, 22])).to eq(22)
+      expect(item.call([31, 2, 22])).to eq(31)
+    end
+  end
+
+  describe 'Task14' do
+    let(:item) { Recursion::Task14 }
+    it 'should work' do
+      expect(item.call([1])).to eq(1)
+      expect(item.call([22])).to eq(22)
+      expect(item.call([1, 1])).to eq(1.0)
+      expect(item.call([2, 2])).to eq(2.0)
+      expect(item.call([1, 2, 3])).to eq(2.0)
+      expect(item.call([1, 10, 20])).to eq(10.3)
+    end
+  end
+
+  describe 'Task15' do
+    let(:item) { Recursion::Task15 }
+    it 'should work' do
+      expect(item.call([])).to eq(0)
+      expect(item.call([2])).to eq(0)
+      expect(item.call([22])).to eq(0)
+      expect(item.call([1, 2])).to eq(1)
+      expect(item.call([1, 2])).to eq(1)
+      expect(item.call([1, 1])).to eq(1)
+      expect(item.call([1, 2, 3, 4])).to eq(3)
+    end
+  end
+
+  describe 'Task16' do
+    let(:item) { Recursion::Task16 }
+    it 'should work' do
+      expect(item.call([])).to eq(0)
+      expect(item.call([1, 2, 3])).to eq(1)
+      expect(item.call([1, 1, 1])).to eq(3)
+      expect(item.call([1, 1, 2, 3])).to eq(1)
+      expect(item.call([1, 1, 2, 2, 3])).to eq(1)
+      expect(item.call([1, 1, 2, 2, 2, 3])).to eq(1)
+      expect(item.call([1, 1, 2, 2, 2, 3, 23])).to eq(1)
+      expect(item.call([1, 1, 2, 2, 2, 23, 23])).to eq(2)
+      expect(item.call([23, 1, 1, 2, 2, 2, 23])).to eq(2)
+      expect(item.call([23, 23, 1, 1, 2, 22, 2, 23])).to eq(3)
+    end
+  end
+
+  describe 'Task17' do
+    let(:item) { Recursion::Task17 }
+    it 'should work' do
+      expect(item.call([])).to eq(0)
+      expect(item.call([1])).to eq(1)
+      expect(item.call([2])).to eq(0)
+      expect(item.call([1, 2])).to eq(1)
+      expect(item.call([1, 1, 2])).to eq(2)
+      expect(item.call([1, 2, 1])).to eq(2)
+      expect(item.call([1, 2, 1, 3, 11, 111, 1])).to eq(3)
+    end
+  end
+
+  describe 'Task18' do
+    let(:item) { Recursion::Task18 }
+    it 'should work' do
+      expect(item.call(0)).to eq('')
+      expect(item.call(1)).to eq('1')
+      expect(item.call(2)).to eq('1 2')
+      expect(item.call(3)).to eq('1 2 2')
+      expect(item.call(4)).to eq('1 2 2 3')
+      expect(item.call(5)).to eq('1 2 2 3 3')
+      expect(item.call(6)).to eq('1 2 2 3 3 3')
+      expect(item.call(7)).to eq('1 2 2 3 3 3 4')
+      expect(item.call(8)).to eq('1 2 2 3 3 3 4 4')
+      expect(item.call(9)).to eq('1 2 2 3 3 3 4 4 4')
+      expect(item.call(10)).to eq('1 2 2 3 3 3 4 4 4 4')
+      expect(item.call(11)).to eq('1 2 2 3 3 3 4 4 4 4 5')
+    end
+  end
+
+  describe 'Task19' do
+    let(:item) { Recursion::Task19 }
+    it 'should work' do
+      expect(item.call(3, 15)).to eq(69)
+    end
+  end
+
+  describe 'Task20' do
+    let(:item) { Recursion::Task20 }
+    it 'should work' do
+      expect(item.call(5, 8)).to eq(126)
+    end
+  end
+
+  describe 'Task21' do
+    let(:item) { Recursion::Task21 }
+    it 'should work' do
+      expect(item.call(4)).to eq(4)
+      expect(item.call(12)).to eq(21)
+      expect(item.call(11)).to eq(11)
+      expect(item.call(33)).to eq(33)
+      expect(item.call(123)).to eq(321)
+      expect(item.call(321)).to eq(123)
+      expect(item.call(876543)).to eq(345678)
     end
   end
 end

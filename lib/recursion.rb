@@ -163,7 +163,23 @@ module Recursion
   # Выведите все простые множители этого числа в порядке неубывания
   # с учетом кратности.
   # Алгоритм должен иметь сложность O(log n).
-  module Task9; end
+  module Task9;
+    def self.call(number)
+      recursion(number, 2)
+    end
+
+    def self.recursion(number, index)
+      # exit
+      return number.to_s if index > number / 2
+
+      # step
+      if (number % index).zero?
+        return index.to_s + ' ' + recursion(number / index, index)
+      else
+        recursion(number, index + 1);
+      end
+    end
+  end
 
 
   # J
@@ -195,6 +211,185 @@ module Recursion
 
       return call(numbers) if (number % 2).zero?
       number.to_s + ' ' + call(numbers)
+    end
+  end
+
+  # L
+  # Дана последовательность натуральных чисел (одно число в строке)
+  # Выведите первое, третье, пятое и т.д. из введенных чисел.
+  # В этой задаче нельзя использовать глобальные переменные
+  module Task12
+    def self.call(numbers)
+      # exit
+      return '' if numbers.size.zero?
+
+      # step
+      number1 = numbers.shift
+      numbers.shift
+      number1.to_s + ' ' + call(numbers)
+    end
+  end
+
+  # M
+  # Дана последовательность натуральных чисел (одно число в строке),
+  # завершающаяся числом 0.
+  # Определите наибольшее значение числа в этой последовательности.
+  module Task13
+    def self.call(numbers)
+      return 0 if numbers.size.zero?
+
+      number = numbers.shift
+      [number, call(numbers)].max
+    end
+  end
+
+  # N
+  # Дана последовательность натуральных чисел (одно число в строке),
+  # завершающаяся числом 0.
+  # Определите среднее значение элементов этой последовательности
+  # (без учета последнего нуля).
+  module Task14
+    def self.call(numbers, sum = 0, index = 1)
+      sum += numbers[index - 1]
+
+      return (sum / index.to_f).round(1) if index == numbers.size
+      call(numbers, sum, index + 1)
+    end
+  end
+
+
+  # O
+  # Дана последовательность натуральных чисел (одно число в строке),
+  # завершающаяся числом 0.
+  # Определите значение второго по величине элемента
+  # в этой последовательности, то есть элемента,
+  # который будет наибольшим,
+  # если из последовательности удалить наибольший элемент.
+  module Task15
+    def self.call(numbers, max1 = 0, max2 = 0)
+      return max2 if numbers.size.zero?
+
+      number = numbers.shift
+      if number >= max1
+        max2 = max1
+        max1 = number
+      end
+      call(numbers, max1, max2)
+    end
+  end
+
+  # P
+  # Дана последовательность натуральных чисел (одно число в строке),
+  # завершающаяся числом 0.
+  # Определите, какое количество элементов этой последовательности,
+  # равны ее наибольшему элементу.
+  module Task16
+    def self.call(numbers, max = 0, times = 0)
+      return times if numbers.size.zero?
+
+      number = numbers.shift
+      if number > max
+        max = number
+        times = 1
+      elsif number == max
+        times += 1
+      end
+      call(numbers, max, times)
+    end
+  end
+
+  # Q
+  # Дана последовательность натуральных чисел (одно число в строке),
+  # завершающаяся двумя числами 0 подряд.
+  # Определите, сколько раз в этой последовательности встречается число 1.
+  module Task17
+    def self.call(numbers, times = 0)
+      return times if numbers.size.zero?
+
+      times += 1 if numbers.shift == 1
+      call(numbers, times)
+    end
+  end
+
+  # R
+  # Дана монотонная последовательность,
+  # в которой каждое натуральное число k встречается ровно k раз:
+  # 1, 2, 2, 3, 3, 3, 4, 4, 4, 4,…
+  # По данному натуральному n выведите первые n членов этой последовательности.
+  # Попробуйте обойтись только одним циклом for.
+  module Task18
+    def self.call(number)
+      recursion(number)
+    end
+
+    def self.recursion(number)
+      return '' if number <= 0
+      return '1' if number == 1
+
+      sum = 0
+      i = 0
+      j = 0
+
+      while sum < number
+        sum += i
+        j = i
+        i += 1
+      end
+
+      recursion(number - 1).to_s + ' ' + j.to_s
+    end
+  end
+
+  # S
+  # Даны натуральные числа k и s.
+  # Определите, сколько существует k-значных натуральных чисел,
+  # сумма цифр которых равна d.
+  # Запись натурального числа не может начинаться с цифры 0.
+  # В этой задаче можно использовать цикл для перебора всех цифр,
+  # стоящих на какой-либо позиции.
+  module Task19
+    def self.call(k, s, len = 0, sum = 0)
+      return sum == s ? 1 : 0 if len == k
+
+      res = 0
+      i = (len.zero? ? 1 : 0)
+      while i < 10
+        res += call(k, s, len + 1, sum + i)
+        i += 1
+      end
+      res
+    end
+  end
+
+  # T
+  # Даны числа a и b.
+  # Определите, сколько существует последовательностей из a нулей и b единиц,
+  # в которых никакие два нуля не стоят рядом.
+  module Task20
+    def self.call(a, b)
+      # exit
+      return 0 if a > b + 1
+      return 1 if a.zero? || b.zero?
+
+      # step
+      call(a, b - 1) + call(a - 1, b - 1)
+    end
+  end
+
+  # U
+  # Дано число n, десятичная запись которого не содержит нулей.
+  # Получите число, записанное теми же цифрами,
+  # но в противоположном порядке.
+  # При решении этой задачи нельзя использовать циклы, строки, списки, массивы,
+  # разрешается только рекурсия и целочисленная арифметика.
+  module Task21
+    def self.call(number)
+      # exit
+      return number if number < 10
+
+      # step
+      number_length = Math.log(number.abs + 0.5, 10).ceil
+      (number % 10) * (10**(number_length - 1)) + call(number / 10).floor
     end
   end
 end
