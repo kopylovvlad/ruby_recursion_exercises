@@ -1,38 +1,300 @@
-# Recursion
+# Ruby recursion exercises with examples
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/recursion`. To experiment with that code, run `bin/console` for an interactive prompt.
+Here is some exercises for programming practice.
 
-TODO: Delete this and the text above, and describe your gem
+Original post: [link(russian)](https://habr.com/post/275813/)
 
-## Installation
+## Tasks
 
-Add this line to your application's Gemfile:
+### Task A
 
-```ruby
-gem 'recursion'
-```
+#### ru:
+Дано натуральное число number. Выведите все числа от 1 до number.
 
-And then execute:
+#### eng:
+You have a natural number 'number'.
+Return a string with all numbers from 1 to 'number' using recursion.
+You can divide each digit by spaces or new lines.
 
-    $ bundle
 
-Or install it yourself as:
+### Task B
 
-    $ gem install recursion
+#### ru:
+Даны два целых числа number1 и number2.
+Выведите все числа от number1 до number2 включительно, в порядке возрастания,
+если number1 < number1, или в порядке убывания в противном случае.
+  
+#### eng:
+You have two numbers 'number1' and 'number2'.
+If 'number1' < 'number2', return a string with all numbers
+from 'number1' to 'number2' inclusive.
+If 'number1' > 'number2', numbers from 'number2' to 'number1'
+
+
+### Task C
+
+#### ru:
+В теории вычислимости важную роль играет функция Аккермана A(number1,number2), определенная следующим образом:
+[link](https://wikimedia.org/api/rest_v1/media/math/render/svg/1a15ea2fcf1977e497bccdf1916ae23edc412fff)
+Даны два целых неотрицательных числа number1 и number2, каждое в отдельной строке.
+Выведите A(number1,number2).
+
+#### eng:
+You have two integers 'number1', 'number2'.
+Implement Ackermann function A(number1,number2) using recursion.
+[link to image](https://wikimedia.org/api/rest_v1/media/math/render/svg/1a15ea2fcf1977e497bccdf1916ae23edc412fff)
+
+
+### Task D
+
+#### ru:
+Дано натуральное число 'number'.
+Выведите true, если число 'number' является точной степенью двойки,
+или false в противном случае.
+Операцией возведения в степень пользоваться нельзя!
+
+#### eng:
+You have a natural number 'number'.
+Write a function that returns true if 'number' is a power of two.
+You should not use the exponentiation operator!
+
+
+### Task E
+
+#### ru:
+Дано натуральное число number. Вычислите сумму его цифр.
+При решении этой задачи нельзя использовать строки, списки, массивы (ну и циклы, разумеется).
+  
+#### eng:
+You have an integer 'number'. Calculate the sum of its digits. 
+You should not use string, array and loops.
+
+
+### Task F
+
+#### ru:
+Дано натуральное число number.
+Выведите все его цифры по одной, в обратном порядке, разделяя их пробелами или новыми строками.
+При решении этой задачи нельзя использовать строки, списки, массивы (ну и циклы, разумеется).
+Разрешена только рекурсия и целочисленная арифметика.
+
+#### eng:
+You have a natural number 'number'. Return all its digits one by one in reverse order.
+You should return all digits separated by spaces or new lines.
+You should not use string, array, loops. Use only recursion and arithmetic operators.
+
+
+### Task G
+
+#### ru:
+Дано натуральное число number.
+Выведите все его цифры по одной, в обычном порядке, разделяя их пробелами или новыми строками.
+При решении этой задачи нельзя использовать строки, списки, массивы (ну и циклы, разумеется).
+Разрешена только рекурсия и целочисленная арифметика.
+
+#### eng:
+You have a natural number 'number'.
+Return all its digits one by one in the correct order.
+You should return all digits separated by spaces or new lines.
+You should not use string, array, loops.
+Use only recursion and arithmetic operators.
+
+
+### Task H
+
+#### ru:
+Дано натуральное число number (number>1).
+Проверьте, является ли оно простым.
+Программа должна вывести true, если число простое и false, если число составное.
+Алгоритм должен иметь сложность O(log n).
+Указание: Понятно, что задача сама по себе нерекурсивна, т.к. проверка числа n на простоту никак не сводится
+к проверке на простоту меньших чисел.
+Поэтому нужно сделать еще один параметр рекурсии: делитель числа, и именно по этому параметру и делать рекурсию.
+
+#### eng:
+You have a natural number 'number' (number > 1).
+Check if 'number' is a prime number or not.
+The function should return true if 'number' is a prime and return false if 'number' is not a prime.
+The algorithm should have time complexity O(log n).
+Hint: you should add one argument for the function as a divisor.
+
+
+### Task I
+
+#### ru:
+Дано натуральное число number (number>1).
+Выведите все простые множители этого числа в порядке возрастания с учетом кратности.
+Алгоритм должен иметь сложность O(log n).
+
+#### eng:
+You have a natural number 'number' (number>1).
+Return all prime factors of this number in increased order.
+The algorithm should have time complexity O(log n).
+
+
+### Task J
+
+#### ru:
+Дано слово, состоящее только из строчных латинских букв.
+Проверьте, является ли это слово палиндромом. Выведите true или false.
+При решении этой задачи нельзя пользоваться циклами.
+
+#### eng:
+You have a word consisting only of lowercase Latin letters.
+Check if the word is a Palindrome.
+The function should return true or false.
+You should not use loops.
+
+
+### Task K
+
+#### ru:
+Дана последовательность натуральных чисел (одно число в строке).
+Выведите все нечетные числа из этой последовательности, сохраняя их порядок.
+В этой задаче нельзя использовать глобальные переменные.
+  
+#### eng:
+You have an array of natural numbers.
+Return all odd number in correct order.
+You should not use global variables.
+
+
+### Task L
+
+#### ru:
+Дана последовательность натуральных чисел.
+Выведите первое, третье, пятое и т.д. из введенных чисел.
+В этой задаче нельзя использовать глобальные переменные
+
+#### eng:
+You have an array of numbers.
+Return first, third, fifth etc. numbers from the array.
+You should not use global variables.
+
+
+### Task M
+
+#### ru:
+Дана последовательность натуральных чисел.
+Определите наибольшее значение числа в этой последовательности.
+
+#### eng:
+You have an array with natural numbers.
+Return the biggest number from the array.
+
+
+### Task N
+
+#### ru:
+Дана последовательность натуральных чисел.
+Определите среднее значение элементов этой последовательности.
+
+#### eng:
+You have an array with natural numbers.
+Return the average value of the array.
+
+
+### Task O
+
+#### ru:
+Дана последовательность натуральных чисел.
+Определите значение второго по величине элемента в этой последовательности, то есть элемента, который будет наибольшим, если из последовательности удалить наибольший элемент.
+
+#### eng:
+You have an array of natural numbers.
+Return the value of the second biggest number.
+
+
+### Task P
+
+#### ru:
+Дана последовательность натуральных чисел.
+Определите, какое количество элементов этой последовательности, равны ее наибольшему элементу.
+
+#### eng:
+You have an array of natural numbers.
+Return a value that shows how many elements are equal to the largest number of the array.
+
+
+### Task Q
+
+#### ru:
+Дана последовательность натуральных чисел.
+Определите, сколько раз в этой последовательности встречается число 1.
+
+#### eng:
+You have an array of natural numbers.
+Return a value that shows how many times in the array there is a number 1.
+
+
+### Task R
+
+#### ru:
+Дана монотонная последовательность, в которой каждое натуральное число k встречается ровно k раз:
+1, 2, 2, 3, 3, 3, 4, 4, 4, 4,...
+По данному натуральному n выведите первые n членов этой последовательности.
+Попробуйте обойтись только одним циклом for.
+
+#### eng:
+You have a monotonic sequence in which every natural number 'k' occurs exactly k-times:
+1, 2, 2, 3, 3, 3, 4, 4, 4, 4,...
+Implement the function that takes one argument (number) and returns a string that contains n-numbers from the monotonic sequence.
+Try to use not more than one loop.
+
+
+### Task S
+
+#### ru:
+Даны натуральные числа k и s.
+Определите, сколько существует k-значных натуральных чисел, сумма цифр которых равна d.
+Запись натурального числа не может начинаться с цифры 0.
+В этой задаче можно использовать цикл для перебора всех цифр, стоящих на какой-либо позиции.
+
+#### eng:
+You have natural numbers 'k' and 's'.
+Determine how many k-digit natural numbers exist, the sum of the digits of which is 'd'.
+A natural number can not begin with a digit 0.
+In this task, you can use a loop to enumerate all the digits that are at any position.
+
+
+### Task T
+
+#### ru:
+Даны числа a и b.
+Определите, сколько существует последовательностей из a нулей и b единиц, в которых никакие два нуля не стоят рядом.
+
+#### eng:
+You have the numbers 'a' and 'b'.
+Determine how many sequences there are from 'a' zero and 'b' units, in which no two zeros are next to each other.
+
+
+### Task U
+
+#### ru:
+Дано число number, десятичная запись которого не содержит нулей.
+Получите число, записанное теми же цифрами, но в противоположном порядке.
+При решении этой задачи нельзя использовать циклы, строки, списки, массивы, разрешается только рекурсия и целочисленная арифметика.
+
+#### eng:
+You have a number 'number'. It does not contain zeros.
+Return the number with the same digits but in reverse order.
+You should not use loops, string and array.
+Use only recursion and arithmetic operators.
+
+
+## CODE
+Course code in lib/recursion.rb.
+Tests in rspec/recursion_spec.rb
 
 ## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```bash
+bundle install;
+rspec spec/
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/recursion. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kopylovvlad/ruby_recursion_exercises. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
