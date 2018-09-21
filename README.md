@@ -12,7 +12,7 @@ Original post: [link(russian)](https://habr.com/post/275813/)
 Дано натуральное число number. Выведите все числа от 1 до number.
 
 #### eng:
-You have a natural number 'number'.
+You were given a natural number ‘number’.
 Return a string with all numbers from 1 to 'number' using recursion.
 You can divide each digit by spaces or new lines.
 
@@ -25,10 +25,10 @@ You can divide each digit by spaces or new lines.
 если number1 < number1, или в порядке убывания в противном случае.
   
 #### eng:
-You have two numbers 'number1' and 'number2'.
+You were given two numbers 'number1' and 'number2'.
 If 'number1' < 'number2', return a string with all numbers
-from 'number1' to 'number2' inclusive.
-If 'number1' > 'number2', numbers from 'number2' to 'number1'
+from 'number1' to 'number2' including them.
+Otherwise, return a string with all numbers from ‘number1’ to ‘number2’ in descending order.
 
 
 ### Task C
@@ -40,9 +40,9 @@ If 'number1' > 'number2', numbers from 'number2' to 'number1'
 Выведите A(number1,number2).
 
 #### eng:
-You have two integers 'number1', 'number2'.
+You were given two integers 'number1' and 'number2'.
 Implement Ackermann function A(number1,number2) using recursion.
-[link to image](https://wikimedia.org/api/rest_v1/media/math/render/svg/1a15ea2fcf1977e497bccdf1916ae23edc412fff)
+https://wikimedia.org/api/rest_v1/media/math/render/svg/1a15ea2fcf1977e497bccdf1916ae23edc412fff
 
 
 ### Task D
@@ -54,7 +54,7 @@ Implement Ackermann function A(number1,number2) using recursion.
 Операцией возведения в степень пользоваться нельзя!
 
 #### eng:
-You have a natural number 'number'.
+You were given a natural number 'number'.
 Write a function that returns true if 'number' is a power of two.
 You should not use the exponentiation operator!
 
@@ -66,8 +66,8 @@ You should not use the exponentiation operator!
 При решении этой задачи нельзя использовать строки, списки, массивы (ну и циклы, разумеется).
   
 #### eng:
-You have an integer 'number'. Calculate the sum of its digits. 
-You should not use string, array and loops.
+You were given a natural 'number'. Calculate the sum of its digits.
+You should not use string, array or loops.
 
 
 ### Task F
@@ -79,9 +79,8 @@ You should not use string, array and loops.
 Разрешена только рекурсия и целочисленная арифметика.
 
 #### eng:
-You have a natural number 'number'. Return all its digits one by one in reverse order.
-You should return all digits separated by spaces or new lines.
-You should not use string, array, loops. Use only recursion and arithmetic operators.
+You were given a natural number 'number'. Return all its digits one by one in reverse order separating them by spaces or new lines
+You should not use string, array or loops. Use only recursion and arithmetic operators.
 
 
 ### Task G
@@ -93,10 +92,9 @@ You should not use string, array, loops. Use only recursion and arithmetic opera
 Разрешена только рекурсия и целочисленная арифметика.
 
 #### eng:
-You have a natural number 'number'.
-Return all its digits one by one in the correct order.
-You should return all digits separated by spaces or new lines.
-You should not use string, array, loops.
+You were given a natural number 'number'.
+Return all its digits one by one in initial order separating them by spaces or new lines
+You should not use string, array or loops.
 Use only recursion and arithmetic operators.
 
 
@@ -112,11 +110,11 @@ Use only recursion and arithmetic operators.
 Поэтому нужно сделать еще один параметр рекурсии: делитель числа, и именно по этому параметру и делать рекурсию.
 
 #### eng:
-You have a natural number 'number' (number > 1).
+You were given a natural number 'number' (number > 1).
 Check if 'number' is a prime number or not.
-The function should return true if 'number' is a prime and return false if 'number' is not a prime.
+The function should return true, if 'number' is  prime, and return false, if 'number' is not prime.
 The algorithm should have time complexity O(log n).
-Hint: you should add one argument for the function as a divisor.
+Hint: you should add one argument to the function as a divisor.
 
 
 ### Task I
@@ -127,9 +125,11 @@ Hint: you should add one argument for the function as a divisor.
 Алгоритм должен иметь сложность O(log n).
 
 #### eng:
-You have a natural number 'number' (number>1).
-Return all prime factors of this number in increased order.
+You were given a natural number 'number' (number > 1).
+Check if 'number' is a prime number or not.
+The function should return true, if 'number' is  prime, and return false, if 'number' is not prime.
 The algorithm should have time complexity O(log n).
+Hint: you should add one argument to the function as a divisor.
 
 
 ### Task J
@@ -140,8 +140,8 @@ The algorithm should have time complexity O(log n).
 При решении этой задачи нельзя пользоваться циклами.
 
 #### eng:
-You have a word consisting only of lowercase Latin letters.
-Check if the word is a Palindrome.
+You were given a word consisting only of lowercase latin letters.
+Check if the word is a palindrome.
 The function should return true or false.
 You should not use loops.
 
@@ -154,8 +154,8 @@ You should not use loops.
 В этой задаче нельзя использовать глобальные переменные.
   
 #### eng:
-You have an array of natural numbers.
-Return all odd number in correct order.
+You were given a sequence of natural numbers (that should look like one number in a string).
+Return all odd numbers from this sequence keeping their initial order.
 You should not use global variables.
 
 
@@ -167,8 +167,8 @@ You should not use global variables.
 В этой задаче нельзя использовать глобальные переменные
 
 #### eng:
-You have an array of numbers.
-Return first, third, fifth etc. numbers from the array.
+You were given a sequence of numbers.
+Return the first, third, fifth etc. numbers from the sequence.
 You should not use global variables.
 
 
@@ -179,8 +179,8 @@ You should not use global variables.
 Определите наибольшее значение числа в этой последовательности.
 
 #### eng:
-You have an array with natural numbers.
-Return the biggest number from the array.
+You were given a sequence of - natural numbers.
+Return the biggest number from the sequence.
 
 
 ### Task N
@@ -190,8 +190,8 @@ Return the biggest number from the array.
 Определите среднее значение элементов этой последовательности.
 
 #### eng:
-You have an array with natural numbers.
-Return the average value of the array.
+You were given a sequence of natural numbers.
+Return the average of the sequence elements.
 
 
 ### Task O
@@ -201,7 +201,7 @@ Return the average value of the array.
 Определите значение второго по величине элемента в этой последовательности, то есть элемента, который будет наибольшим, если из последовательности удалить наибольший элемент.
 
 #### eng:
-You have an array of natural numbers.
+You were given a sequence of natural numbers.
 Return the value of the second biggest number.
 
 
@@ -212,8 +212,8 @@ Return the value of the second biggest number.
 Определите, какое количество элементов этой последовательности, равны ее наибольшему элементу.
 
 #### eng:
-You have an array of natural numbers.
-Return a value that shows how many elements are equal to the largest number of the array.
+You were given a sequence of natural numbers.
+Return the number of elements which are equal to the largest number in this sequence.
 
 
 ### Task Q
@@ -223,8 +223,8 @@ Return a value that shows how many elements are equal to the largest number of t
 Определите, сколько раз в этой последовательности встречается число 1.
 
 #### eng:
-You have an array of natural numbers.
-Return a value that shows how many times in the array there is a number 1.
+You were given a sequence of natural numbers.
+Return the number of times “1” occurs in the sequence
 
 
 ### Task R
@@ -236,10 +236,9 @@ Return a value that shows how many times in the array there is a number 1.
 Попробуйте обойтись только одним циклом for.
 
 #### eng:
-You have a monotonic sequence in which every natural number 'k' occurs exactly k-times:
-1, 2, 2, 3, 3, 3, 4, 4, 4, 4,...
-Implement the function that takes one argument (number) and returns a string that contains n-numbers from the monotonic sequence.
-Try to use not more than one loop.
+You were given a monotonic sequence in which every natural number 'k' occurs exactly k-times: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4,...
+Write a function that returns first n elements of this sequence by given a natural number n. 
+Try to use no more than one loop.
 
 
 ### Task S
@@ -251,10 +250,10 @@ Try to use not more than one loop.
 В этой задаче можно использовать цикл для перебора всех цифр, стоящих на какой-либо позиции.
 
 #### eng:
-You have natural numbers 'k' and 's'.
+You were given two  natural numbers 'k' and 's'.
 Determine how many k-digit natural numbers exist, the sum of the digits of which is 'd'.
 A natural number can not begin with a digit 0.
-In this task, you can use a loop to enumerate all the digits that are at any position.
+In this task, you can use a loop to iterate through all the digits at any position.
 
 
 ### Task T
@@ -264,8 +263,8 @@ In this task, you can use a loop to enumerate all the digits that are at any pos
 Определите, сколько существует последовательностей из a нулей и b единиц, в которых никакие два нуля не стоят рядом.
 
 #### eng:
-You have the numbers 'a' and 'b'.
-Determine how many sequences there are from 'a' zero and 'b' units, in which no two zeros are next to each other.
+You were given two  numbers 'a' and 'b'.
+Determine how many sequences there are,  from 'a' zeros and 'b' units, in which two zeros do not occur next to each other.
 
 
 ### Task U
@@ -276,9 +275,9 @@ Determine how many sequences there are from 'a' zero and 'b' units, in which no 
 При решении этой задачи нельзя использовать циклы, строки, списки, массивы, разрешается только рекурсия и целочисленная арифметика.
 
 #### eng:
-You have a number 'number'. It does not contain zeros.
-Return the number with the same digits but in reverse order.
-You should not use loops, string and array.
+You were given a number 'number'. Its decimal representation does not contain zeros.
+Return a  number represented by the same digits but in reverse order.
+You should not use loops, string or array.
 Use only recursion and arithmetic operators.
 
 
